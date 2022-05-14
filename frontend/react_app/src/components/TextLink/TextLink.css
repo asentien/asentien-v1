@@ -1,0 +1,9 @@
+#textLinkPrimaryId {
+  text-decoration: none;
+  color: #000;
+}
+
+#textLinkSecondaryId {
+  text-decoration: none;
+  color: var(--primaryPurpleColor);
+}

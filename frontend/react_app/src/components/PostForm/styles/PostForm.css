@@ -1,0 +1,66 @@
+#postFormBaseContainer {
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  height: 65px;
+  max-width: 450px;
+  width: 100%;
+  background-color: var(--primaryWhiteColor);
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgb(221, 221, 221, 0.3);
+  border: 1px solid var(--primaryGrayBorderColor);
+  margin-top: 69px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#postFormBaseBody {
+  height: 30px;
+  line-height: 30px;
+  width: 385px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-right: 14px;
+  margin-left: 7px;
+  font-weight: lighter;
+  color: #000;
+  border-width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: var(--primaryLightGrayColor);
+  border: 1px solid var(--primaryLightGrayColor);
+  border-radius: 7.5px;
+}
+#postFormBaseBody:hover {
+  background-color: var(--primaryGrayColor);
+}
+@media only screen and (max-width: 890px) {
+  #postFormBaseContainer {
+    margin-bottom: 18px;
+  }
+}
+
+@media only screen and (min-width: 380px) {
+  #postFormBaseBody {
+    float: right;
+    background: url("./theaters_black_18dp.svg"),
+      url("./add_photo_alternate_black_18dp.svg") var(--primaryLightGrayColor);
+    background-repeat: no-repeat;
+    background-position: right 16px center, right 36px center;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #postFormBaseContainer {
+    border-radius: 0;
+    margin-top: 49.68px;
+  }
+  #postFormBaseBody {
+    margin-right: 10px;
+    margin-left: 3px;
+  }
+}

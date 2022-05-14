@@ -1,0 +1,18 @@
+#postParentContainer {
+  border-right: none;
+  background-color: var(--primaryWhiteColor);
+  margin-bottom: 0px;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 0px;
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+#postParentContainer:hover {
+  -webkit-filter: brightness(99%);
+  filter: brightness(99%);
+}

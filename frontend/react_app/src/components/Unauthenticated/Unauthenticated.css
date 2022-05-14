@@ -1,0 +1,43 @@
+#authTitleOuter {
+  color: var(--primaryPurpleColor);
+  font-size: 1.313rem;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  font-weight: thin;
+}
+
+#authTitleInner {
+  color: var(--primaryPurpleColor);
+  font-size: 21px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  font-weight: thin;
+}
+
+#unauthenticatedErrorLabel {
+  font-size: 0.8rem;
+}
+
+.unauthenticatedMainFields {
+  width: 100%;
+  height: 34px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #000;
+  padding-left: 13px;
+  border: 1px solid rgba(125, 0, 242, 0.1);
+}
+
+#authCloseIcon {
+  margin-left: auto;
+  margin-top: 7.5px;
+  color: var(--primaryDarkGrayColor);
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+#authCloseIcon:hover {
+  background-color: var(--primaryGrayColor);
+}

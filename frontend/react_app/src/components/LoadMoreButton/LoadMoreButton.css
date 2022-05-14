@@ -1,0 +1,13 @@
+#nextButton {
+  color: var(--primaryPurpleColor);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+#nextButton:hover {
+  color: var(--secondaryPurpleColor);
+  text-decoration: underline;
+}

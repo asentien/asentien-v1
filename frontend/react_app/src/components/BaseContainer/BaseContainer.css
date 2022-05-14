@@ -1,0 +1,27 @@
+#baseParentContainer {
+  width: 100%;
+}
+
+#baseContainer {
+  width: 100%;
+  max-width: 450px;
+  background-color: var(--primaryWhiteColor);
+  margin: auto;
+  margin-top: 69px;
+  margin-bottom: 17.5px;
+  padding-bottom: 15px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 1px 3px 1px rgb(221, 221, 221, 0.3);
+  border: 1px solid var(--primaryGrayBorderColor);
+  overflow-x: hidden;
+}
+
+#profileContainerHeader {
+  margin: auto;
+}
+
+@media only screen and (max-width: 385px) {
+  #baseContainer {
+    margin-top: 49.68px;
+  }
+}

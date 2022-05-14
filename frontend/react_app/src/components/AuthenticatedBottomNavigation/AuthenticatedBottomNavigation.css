@@ -1,0 +1,35 @@
+#bottomNavDivNav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  z-index: 7000;
+  bottom: 0;
+  margin: 0;
+}
+
+#bottomNavNavigation {
+  height: 40px;
+  background-color: var(--primaryWhiteColor);
+  border-top: 1px solid rgb(201, 201, 201, 0.6);
+  width: 100%;
+  max-width: 100%;
+  bottom: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  #bottomNavNavigation {
+    padding-bottom: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 385px) {
+  #bottomNavNavigation {
+    height: 30px;
+  }
+}

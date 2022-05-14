@@ -1,0 +1,27 @@
+#avatar {
+  height: 40px;
+  width: 40px;
+  margin-top: 2px;
+  margin-left: 14px;
+  margin-right: 4px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 1px;
+  background-color: var(--primaryLightGrayColor);
+  border: 1px solid var(--primaryLightGrayColor);
+}
+
+#avatar:hover {
+  -webkit-filter: brightness(95%);
+  filter: brightness(95%);
+}
+
+@media only screen and (max-width: 385px) {
+  #avatar {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    margin-left: 4.5px;
+  }
+}

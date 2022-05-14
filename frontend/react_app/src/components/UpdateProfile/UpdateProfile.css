@@ -1,0 +1,21 @@
+#profileUpdateBaseButton {
+  height: 17px;
+  width: 65px;
+  min-width: 65px;
+  margin-top: 3px;
+  margin-right: 8px;
+  margin-left: auto;
+  margin-bottom: 0px;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 17px;
+  background-color: var(--primaryPurpleColor);
+  color: var(--primaryWhiteColor);
+  border-radius: 55px 55px 55px 55px;
+  cursor: pointer;
+}
+
+#profileUpdateBaseButton:hover {
+  background-color: var(--secondaryPurpleColor);
+}

@@ -1,0 +1,131 @@
+#navigationDropdownProfile {
+  margin-left: 7px;
+  margin-top: 5px;
+  display: flex;
+  width: 95%;
+  padding-bottom: 5px;
+  padding-top: -1px;
+  padding-left: 0;
+  margin-bottom: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid transparent;
+}
+
+#navigationDropdownProfile:hover {
+  border-bottom: 1px solid var(--primaryGrayBorderColor);
+}
+
+#dropdownAvatar {
+  margin-right: 4px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 1px;
+  background-color: var(--primaryLightGrayColor);
+  border: 1px solid var(--primaryLightGrayColor);
+  height: 60px;
+  width: 60px;
+  margin-top: 7px;
+  margin-left: 2px;
+}
+
+#dropdownName {
+  margin-top: 25.5px;
+  margin-left: 3.5px;
+}
+
+#dropdownNameLink {
+  text-decoration: none;
+  color: #000;
+}
+
+#dropdownProfileText {
+  margin-top: -2px;
+  margin-left: -0px;
+}
+
+#dropdownProfileTextLink {
+  text-decoration: none;
+  color: var(--primaryPurpleColor);
+}
+
+#navigationItemsMenu {
+  flex-direction: column;
+  font-size: 11.5px;
+  margin-left: 5px;
+  margin-right: 3px;
+  margin-top: -3px;
+  display: flex;
+  justify-content: space-between;
+  height: 311px;
+  overflow: hidden;
+}
+
+#navigationItems {
+  margin-top: -1px;
+  height: 50px;
+  line-height: 35px;
+  display: border-box;
+  padding-top: 5px;
+  padding-left: 1.5px;
+  width: 98%;
+  margin: auto;
+  margin-left: 2px;
+  margin-right: 5px;
+  color: #000;
+  overflow: hidden;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+#navigationItems:hover {
+  border-bottom: 1px solid var(--primaryGrayBorderColor);
+}
+
+#navigationItemsLink {
+  padding-top: 6px;
+  padding-left: 4px;
+  padding-bottom: 12px;
+  border-radius: 10px;
+  margin-left: -3px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+#topNavNavigationDropdownArrow {
+  border-radius: 15px;
+  border: 1px solid var(--primaryLightGrayColor);
+  margin-top: 5.5px;
+  margin-right: 5px;
+  color: var(--primaryDarkGrayColor);
+  float: right;
+  height: 24px;
+  width: 24px;
+}
+
+#navigationCopyright {
+  width: 100%;
+  color: var(--primaryDarkGrayColor);
+  margin-left: 5.5px;
+  margin-top: 7px;
+  font-size: 0.5rem;
+}
+
+@media only screen and (max-width: 200px) {
+  #navigationItemsLink {
+    font-size: 0.6rem;
+  }
+  #dropdownName {
+    font-size: 0.6rem;
+  }
+  #dropdownProfileTextLink {
+    font-size: 0.6rem;
+  }
+}

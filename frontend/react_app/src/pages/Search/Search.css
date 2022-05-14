@@ -1,0 +1,30 @@
+.searchPageInput {
+  background-color: var(--primaryWhiteColor);
+  border-radius: 0 10px 10px 0;
+  margin-right: 10px;
+  border: 1px solid var(--primaryWhiteColor);
+  width: 105px;
+  margin-left: -10px;
+  justify-content: left;
+}
+
+.searchPageInput:hover {
+  background-color: var(--primaryWhiteColor);
+  border-radius: 0 10px 10px 0;
+  margin-right: 10px;
+  box-shadow: none;
+}
+
+.searchPageInput:focus {
+  background-color: var(--primaryWhiteColor);
+  box-shadow: none;
+  border-radius: 0 10px 10px 0;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 300px) {
+  .searchPageInput {
+    display: block;
+  }
+}

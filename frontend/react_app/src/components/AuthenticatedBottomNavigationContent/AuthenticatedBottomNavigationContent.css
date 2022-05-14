@@ -1,0 +1,131 @@
+#bottomNavigationIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#bottomNavigationIcon {
+  color: #fff;
+  margin-top: 3.5px;
+  padding-bottom: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 30px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  border-bottom: 2px solid transparent;
+}
+
+#bottomNavigationIcon:hover {
+  border-bottom: 2px solid var(--primaryGrayColor);
+}
+
+#bottomNavigationIconHashtag {
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 3.5px;
+  padding-bottom: 2px;
+  height: 30px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  border-bottom: 2px solid transparent;
+}
+#bottomNavigationIconHashtag:hover {
+  border-bottom: 2px solid var(--primaryGrayColor);
+}
+
+#bottomNavigationLinkHashtag {
+  text-decoration: none;
+  font-size: 38px;
+  line-height: 34px;
+}
+
+#bottomNavigationIconAccount {
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 3.5px;
+  padding-bottom: 2px;
+  height: 30px;
+  margin-left: 2.5px;
+  margin-right: 0;
+  border-bottom: 2px solid transparent;
+}
+#bottomNavigationIconAccount:hover {
+  border-bottom: 2px solid var(--primaryGrayColor);
+}
+
+#svgIcons {
+  height: 30px;
+  width: 30px;
+}
+
+@media only screen and (max-width: 484px) {
+  #bottomNavigationIconAccount {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #svgIcons {
+    height: 24px;
+    width: 24px;
+  }
+  #bottomNavigationLinkHashtag {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  #bottomNavigationIcon {
+    height: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+  }
+  #bottomNavigationIconHashtag {
+    height: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    height: 16.5px;
+    margin-bottom: 9px;
+    padding-bottom: 4.5px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #bottomNavigationIcon {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #bottomNavigationIconHashtag {
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  #bottomNavigationIconHashtag {
+    padding-left: 10.5px;
+    padding-right: 10.5px;
+  }
+  #bottomNavigationIcon {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  #bottomNavigationIconHashtag {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
+  #bottomNavigationIcon {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}

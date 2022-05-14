@@ -1,0 +1,18 @@
+#voteCountRender {
+  text-decoration: none;
+  list-style: none;
+  color: var(--primaryDarkGrayColor);
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.8rem;
+  margin-top: -6px;
+}
+
+#voteCountRender:hover {
+  text-decoration: underline;
+}
+
+#postLikesTitle {
+  font-size: 1rem;
+  color: var(--primaryPurpleColor);
+}

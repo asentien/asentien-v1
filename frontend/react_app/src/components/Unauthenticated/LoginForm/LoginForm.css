@@ -1,0 +1,60 @@
+#loginRedirectNoAcc {
+  color: var(--primaryDarkGrayColor);
+  font-size: 11px;
+  cursor: pointer;
+  width: 95px;
+}
+
+#loginRedirectSignup {
+  color: rgb(100, 100, 100);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+
+  width: 75px;
+}
+
+#loginRedirectSignup:hover {
+  text-decoration: underline;
+}
+
+#loginButton {
+  width: 100%;
+  max-width: 395px;
+  border-radius: 5px;
+  background: var(--primaryPurpleColor);
+  border-width: 0px;
+  height: 30px;
+  color: var(--primaryWhiteColor);
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+#loginButton:hover {
+  background-color: var(--secondaryPurpleColor);
+}
+
+#loginButton:disabled {
+  background-color: #9e63eb;
+  cursor: default;
+}
+
+#login_title {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 9px;
+  margin-left: 40.5px;
+}
+
+#loginFields {
+  width: 100%;
+  max-width: 395px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: var(--primaryWhiteColor);
+  border-width: 0px;
+  height: 30px;
+  color: #000;
+  padding-left: 13px;
+  border: 1px solid rgba(125, 0, 242, 0.1);
+  box-sizing: border-box;
+}

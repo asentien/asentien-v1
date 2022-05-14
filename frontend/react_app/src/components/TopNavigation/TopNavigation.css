@@ -1,0 +1,51 @@
+#topNavDivNav {
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  background: var(--primaryWhiteColor);
+  border-bottom: 1px solid rgb(201, 201, 201, 0.6);
+  z-index: 7000;
+}
+
+#topNav {
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#topNavLogo {
+  outline: 0;
+  border: none;
+  border: none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#topNavLogoImage {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  height: 41px;
+  width: 41px;
+}
+
+@media only screen and (max-width: 385px) {
+  #topNavDivNav {
+    height: 36px;
+  }
+  #topNav {
+    height: 36px;
+  }
+  #topNavLogoImage {
+    height: 29.52px;
+    width: 29.52px;
+    margin-top: -1.5px;
+  }
+}

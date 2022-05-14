@@ -1,0 +1,13 @@
+#upperShareItemNoBody {
+  width: 100%;
+  border-top: 7px solid var(--primaryBackgroundColor);
+  margin-bottom: -15px;
+  z-index: 1;
+}
+
+#lowerShareItemNoBody {
+  width: 100%;
+  border-top: 7px solid var(--primaryBackgroundColor);
+  margin-bottom: -14px;
+  z-index: 1;
+}

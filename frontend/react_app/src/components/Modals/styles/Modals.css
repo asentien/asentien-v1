@@ -1,0 +1,16 @@
+#modalBackground {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(211, 211, 211, 0.356);
+  z-index: 9999;
+}
+
+.noDataModals {
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 17.5px;
+}

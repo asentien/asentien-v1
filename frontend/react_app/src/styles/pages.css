@@ -1,0 +1,32 @@
+#refreshPage {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #000;
+}
+
+#pageTextStyle {
+  margin-bottom: -7.5px;
+  font-size: 0.75rem;
+  color: rgb(100, 100, 100);
+  word-break: break-all;
+}
+
+#pageHeading {
+  margin-left: 65px;
+  text-align: left;
+  margin-right: 65px;
+}
+
+@media only screen and (max-width: 385px) {
+  #pageHeading {
+    margin-left: 54px;
+    margin-right: 54px;
+  }
+}
+
+@media only screen and (max-width: 285px) {
+  #pageHeading {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,30 @@
+#userListHeaderLinkStyle {
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+#userListContainer {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-left: -8px;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+@media only screen and (max-width: 385px) {
+  #userListHeaderLinkStyle {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    margin-left: -5%;
+  }
+  #userListContainer {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: -9px;
+    margin-left: -8px;
+  }
+}

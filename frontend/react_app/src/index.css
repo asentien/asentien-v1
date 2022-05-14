@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./styles/fonts/quicksand-v28-latin-regular.eot"); 
+  src: local(""),
+    url("./styles/fonts/quicksand-v28-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./styles/fonts/quicksand-v28-latin-regular.woff2")
+      format("woff2"),
+      url("./styles/fonts/quicksand-v28-latin-regular.woff") format("woff"),
+    url("./styles/fonts/quicksand-v28-latin-regular.ttf")
+      format("truetype"),
+    url("./styles/fonts/quicksand-v28-latin-regular.svg#Quicksand")
+      format("svg"); 
+}
+
+:root {
+  --primaryBackgroundColor: #f7f7ffff;
+  --primaryWhiteColor: #fbffff;
+  --primaryGrayBorderColor: rgb(221, 221, 221, 0.6);
+  --primaryLightGrayColor: rgb(221, 221, 221);
+  --primaryGrayColor: rgb(209, 209, 209);
+  --primaryDarkGrayColor: rgb(150, 150, 150);
+  --primaryPurpleColor: #7d00f2;
+  --secondaryPurpleColor: #6200de;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  background-color: var(--primaryBackgroundColor);
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Quicksand";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#App {
+  margin: 0px;
+  padding: 0;
+  margin-bottom: 60px;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+textarea,
+input,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: inherit;
+  border: inherit;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+#modalScrollBar {
+  border-right: 17px solid #f0f0f0;
+  height: 100%;
+  position: fixed;
+  left: 100%;
+  margin-left: -17px;
+  display: none;
+  z-index: 7000;
+  top: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+
+div::-webkit-scrollbar {
+  width: 10px;
+}
+
+form::-webkit-scrollbar {
+  width: 10px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+#purpleColor {
+  color: var(--primaryPurpleColor);
+}

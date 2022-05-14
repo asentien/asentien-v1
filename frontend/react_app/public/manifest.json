@@ -1,0 +1,9 @@
+{
+  "short_name": "Asentien",
+  "name": "Asentien",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7d00f2",
+  "background_color": "#f7f7ffff",
+  "description": "Asentien's mission is to deliver internet's promise."
+}

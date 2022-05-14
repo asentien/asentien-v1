@@ -1,0 +1,27 @@
+#notificationIconDeactivate {
+  float: right;
+  margin-top: 14.5px;
+  color: var(--primaryLightGrayColor);
+  cursor: pointer;
+  margin-left: auto;
+  padding-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+#notificationCreatedAt {
+  margin-top: -3px;
+  display: block;
+  font-size: 0.6rem;
+  color: var(--primaryDarkGrayColor);
+}
+
+#notificationIconDeactivate:hover {
+  color: var(--primaryGrayColor);
+}
+
+@media only screen and (max-width: 385px) {
+  #avatarMarginLeft {
+    margin-left: 5px;
+  }
+}

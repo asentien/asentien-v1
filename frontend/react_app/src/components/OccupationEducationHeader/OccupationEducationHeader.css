@@ -1,0 +1,70 @@
+#headerOccupationEducationText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#headerFullNameUsername {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  margin-left: 8px;
+  margin-top: 3.5px;
+  color: #000;
+}
+
+#postCreatedAt {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+
+#occupationEducationHeaderAdditional {
+  font-size: 0.6rem;
+  margin-left: 8px;
+  margin-top: -3px;
+  margin-bottom: -4px;
+  color: #000;
+}
+
+#occupationEducationHeaderAdditionalShrink {
+  font-size: 0.5rem;
+  margin-left: 8px;
+  margin-top: -4px;
+  margin-bottom: -0px;
+  color: #000;
+  margin-right: -40px;
+}
+
+#headerLinkStyle {
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+#occupationEducationAsentientAcceleratorIcons {
+  font-size: 0.6em;
+  margin-right: 5px;
+  background-color: var(--primaryPurpleColor);
+  padding-bottom: 1.5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  box-sizing: border-box;
+  color: var(--primaryWhiteColor);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  z-index: 7;
+}
+
+@media only screen and (max-width: 385px) {
+  #headerLinkStyle {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    margin-left: -7%;
+  }
+}

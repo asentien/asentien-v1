@@ -1,0 +1,22 @@
+#followersFollowingNavLinks {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  cursor: pointer;
+}
+#followersFollowingNav {
+  margin-right: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid transparent;
+}
+#followersFollowingNav:hover {
+  border-bottom: 1px solid (--primaryGrayColor);
+}
+
+@media only screen and (max-width: 385px) {
+  #followersFollowingNav {
+    font-size: 0.7rem;
+  }
+}

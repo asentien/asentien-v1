@@ -1,0 +1,210 @@
+#postContent {
+  overflow: hidden;
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
+  max-height: 250px;
+  border-top: 1px solid var(--primaryGrayBorderColor);
+  border-bottom: 1px solid var(--primaryGrayBorderColor);
+}
+
+#postWatermarkPicture {
+  position: absolute;
+  transform: translateX(14px);
+  margin-left: auto;
+  margin-top: 10px;
+  height: 20px;
+  height: 30px;
+}
+
+#postWatermarkText {
+  position: absolute;
+  transform: translateX(5.5%);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-top: 8px;
+  transform: translateX(47px);
+  height: 20px;
+  color: var(--primaryWhiteColor);
+  border-radius: 100%;
+  padding: 2px;
+  padding-top: 2.5px;
+}
+
+#postWatermarkPictureMobile {
+  position: absolute;
+  transform: translateX(14px);
+  margin-left: auto;
+  margin-top: -60px;
+  height: 20px;
+  height: 30px;
+  display: none;
+}
+
+#postWatermarkTextMobile {
+  position: absolute;
+  transform: translateX(5.5%);
+  font-size: 0.5rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-top: -63px;
+  transform: translateX(47px);
+  height: 20px;
+  color: var(--primaryWhiteColor);
+  border-radius: 100%;
+  padding: 2px;
+  padding-top: 2.5px;
+  display: none;
+}
+
+#loadingImageFallback {
+  height: 253px;
+  max-height: 100%;
+  max-width: 100%;
+  width: 450px;
+  background-color: var(--primaryLightGrayColor);
+}
+
+#loadingImageFallbackText {
+  font-size: 1.4rem;
+  transform: translateY(220%);
+}
+
+#postContentContainer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#postTitle {
+  margin-top: 0;
+  margin-left: 14px;
+  margin: 14px;
+  font-weight: 400;
+  color: #000;
+  overflow-wrap: break-word;
+}
+
+#postBody {
+  margin-left: 14px;
+  margin: 14px;
+  font-weight: 400;
+  color: #000;
+  overflow-wrap: break-word;
+}
+
+#postBodyCommentNotice {
+  font-size: 0.7rem;
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+
+#postContentImage {
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  height: 100%;
+  max-height: 253.13px;
+  overflow: hidden;
+}
+
+#postContentVideo {
+  display: block;
+  overflow: hidden;
+  margin-bottom: -5px;
+}
+
+#postBodyEffect {
+  width: 100%;
+  height: 19px;
+  background-color: var(--primaryWhiteColor);
+  opacity: 0.9;
+}
+
+#postBodyEffect2 {
+  width: 100%;
+  margin-top: -44px;
+  margin-bottom: 5px;
+  height: 21px;
+  background-color: var(--primaryWhiteColor);
+  opacity: 0.7;
+}
+
+#postActionsContainer {
+  background-color: var(--primaryBackgroundColor);
+  border-top: 1px solid var(--primaryGrayBorderColor);
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#postActions {
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+  margin-right: 14px;
+  overflow: hidden;
+}
+
+#nestedSharesAndCommentsContainer {
+  border-top: 1px solid var(--primaryGrayBorderColor);
+  border-left: 1px solid var(--primaryGrayBorderColor);
+  margin-left: 14px;
+}
+#nestedSharesAndCommentsLine {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid var(--primaryGrayBorderColor);
+}
+
+@media only screen and (max-width: 485px) {
+  #postWatermarkText {
+    display: none;
+  }
+  #postWatermarkPicture {
+    display: none;
+  }
+  #postWatermarkTextMobile {
+    display: block;
+    transform: translateX(34px);
+    font-size: 0.4rem;
+  }
+  #postWatermarkPictureMobile {
+    display: block;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #postActionsContainer {
+    border-radius: 0 0 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 2.5px;
+    margin-top: 0px;
+    margin-bottom: -4.5px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  #postActions {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  #postTitle {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  #postBody {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  #nestedSharesAndCommentsContainer {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}

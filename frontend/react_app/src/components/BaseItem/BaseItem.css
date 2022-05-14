@@ -1,0 +1,25 @@
+#baseItem {
+  max-width: 450px;
+  width: 100%;
+  background-color: var(--primaryWhiteColor);
+  margin: auto;
+  margin-top: 69px;
+  margin-bottom: 17.5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgb(221, 221, 221, 0.3f);
+  border: 1px solid var(--primaryGrayBorderColor);
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 450px) {
+  #baseItem {
+    border-radius: 0;
+  }
+}
+
+
+@media only screen and (max-width: 385px) {
+  #baseItem {
+    margin-top: 49.68px;
+  }
+}

@@ -1,0 +1,107 @@
+.signupNames {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 335px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.signupName {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 34px;
+  color: #000;
+  padding-left: 13px;
+  border: 1px solid rgba(125, 0, 242, 0.1);
+}
+
+#signupDateOfBirthContainer {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 0px;
+  overflow: hidden;
+  align-items: center;
+  color: #000;
+}
+
+.signupMonth {
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: var(--primaryWhiteColor);
+  border-width: 0px;
+  padding-left: 13px;
+  padding-right: 3px;
+  border: 1px solid rgba(125, 0, 242, 0.1);
+}
+.signupDay {
+  width: 20%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border-width: 0px;
+  height: 34px;
+  padding-left: 13px;
+  border: 1px solid rgba(125, 0, 242, 0.1);
+}
+
+.signupYear {
+  width: 31%;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 34px;
+  box-sizing: border-box;
+  padding-left: 13px;
+  border: 1px solid rgba(125, 0, 242, 0.1);
+}
+
+#signupPrivacy {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: gray;
+  font-size: 0.65rem;
+}
+
+#signupButton {
+  width: 100%;
+  max-width: 335px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background: var(--primaryPurpleColor);
+  border-width: 0px;
+  height: 30px;
+  color: var(--primaryWhiteColor);
+  cursor: pointer;
+}
+#signupButton:hover {
+  background-color: var(--secondaryPurpleColor);
+}
+
+#signupButton:disabled {
+  background-color: #9e63eb;
+  cursor: default;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 320px) {
+  .signupYear {
+    width: 25%;
+  }
+}

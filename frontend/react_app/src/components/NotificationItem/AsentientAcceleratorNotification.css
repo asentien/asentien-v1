@@ -1,0 +1,28 @@
+#congratulationsTitle {
+  color: var(--primaryPurpleColor);
+  font-size: 1.313rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#refreshTitle {
+  color: var(--primaryPurpleColor);
+  font-size: 1.313rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#refreshTitle:hover {
+  color: var(--secondaryPurpleColor);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 385px) {
+  #congratulationsTitle {
+    font-size: 1rem;
+  }
+  #refreshTitle {
+    font-size: 1rem;
+  }
+}

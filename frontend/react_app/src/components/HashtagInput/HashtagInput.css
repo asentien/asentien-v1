@@ -1,0 +1,57 @@
+#hashtagInput {
+  height: 30px;
+  line-height: 30px;
+  width: 385px;
+  max-width: 100%;
+  margin-top: 10px;
+  font-weight: lighter;
+  color: #000;
+  border-width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  box-sizing: border-box;
+  padding-right: 16px;
+  margin-left: -0px;
+  border-radius: 0 5px 5px 0;
+  background: none;
+  border: 0;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+#hashtagInput:focus {
+  outline: none;
+  box-shadow: none;
+  background: none;
+  display: block;
+}
+
+#hashtagInputButton {
+  width: 100px;
+  max-width: 40%;
+  margin-right: 7%;
+  float: right;
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: var(--primaryPurpleColor);
+  border: 1px solid var(--primaryPurpleColor);
+  color: var(--primaryWhiteColor);
+  cursor: pointer;
+  margin-top: 18px;
+  border-radius: 25px;
+  font-size: 0.6rem;
+  height: 15px;
+  line-height: 12px;
+}
+#hashtagInputButton:hover {
+  background-color: var(--secondaryPurpleColor);
+  border: 1px solid var(--secondaryPurpleColor);
+}
+
+#hashtagInputButton:disabled {
+  border: 1px solid #9e63eb;
+  background-color: #9e63eb;
+  cursor: default;
+}

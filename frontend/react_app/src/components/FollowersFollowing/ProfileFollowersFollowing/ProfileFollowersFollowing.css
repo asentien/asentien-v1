@@ -1,0 +1,23 @@
+#profileFollowersFollowing {
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#profileFollowers {
+  margin-right: 5px;
+  font-size: 1rem;
+}
+#profileFollowers:hover {
+  text-decoration: underline var(--primaryGrayColor);
+}
+#profileFollowing {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+#profileFollowing:hover {
+  text-decoration: underline var(--primaryGrayColor);
+}

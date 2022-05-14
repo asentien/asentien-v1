@@ -1,0 +1,11 @@
+#deactivateUserIcon {
+  height: 20px;
+  width: 20px;
+  color: var(--primaryDarkGrayColor);
+  margin-bottom: -3px;
+}
+
+#deactivateUserAccountButton {
+  color: #ed5249;
+  margin-top: 10px;
+}

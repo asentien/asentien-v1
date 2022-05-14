@@ -1,0 +1,18 @@
+#notificationTypeLink {
+  color: var(--primaryPurpleColor);
+}
+#notificationTypeLink:hover {
+  color: var(--secondaryPurpleColor);
+  text-decoration: underline;
+}
+#notificationTypeLinkPromotion {
+  color: #75f200;
+}
+#notificationTypeLinkPromotion:hover {
+  color: #61de00;
+  text-decoration: underline;
+}
+#notificationLinkStyle {
+  text-decoration: none;
+  color: #000;
+}

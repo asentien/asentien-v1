@@ -1,0 +1,116 @@
+#profileUpdateBaseButton {
+  height: 17px;
+  width: 65px;
+  min-width: 65px;
+  margin-top: 3px;
+  margin-right: 8px;
+  margin-left: auto;
+  margin-bottom: 0px;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 17px;
+  background-color: var(--primaryPurpleColor);
+  color: var(--primaryWhiteColor);
+  border-radius: 55px 55px 55px 55px;
+  cursor: pointer;
+}
+
+#profileUpdateBaseButton:hover {
+  background-color: var(--secondaryPurpleColor);
+}
+
+#profileUpdateMainTitle {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: var(--primaryPurpleColor);
+  font-size: 21px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-weight: thin;
+}
+
+#profileUpdateImagesTitle {
+  display: flex;
+  justify-content: left;
+  margin-left: 33px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#profileUpdateMainFieldsTitle {
+  display: flex;
+  justify-content: left;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 33px;
+}
+
+.profileUpdateMainFields {
+  max-width: 285px;
+  height: 33px;
+  width: 90%;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 33px;
+  background-color: #f7f7ff;
+  font-weight: lighter;
+  color: #000;
+  border-width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  line-height: 33px;
+}
+
+#bio {
+  max-width: 285px;
+  height: 99px;
+  width: 90%;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #f7f7ff;
+  font-weight: lighter;
+  color: #000;
+  border-width: 0px;
+  overflow: hidden;
+  line-height: 33px;
+  margin-left: 33px;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  resize: none;
+}
+
+#profileSeeProfile {
+  display: flex;
+  justify-content: center;
+  height: 33px;
+  line-height: 33px;
+  width: 70%;
+  max-width: 141px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 15px;
+  background: var(--primaryPurpleColor);
+  border-width: 0px;
+  color: var(--primaryWhiteColor);
+}
+#profileSeeProfile:hover {
+  background-color: var(--secondaryPurpleColor);
+}
+
+@media only screen and (max-width: 330px) {
+  #profileUpdateRemoveMargin {
+    margin-left: -25px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  #profileUpdateRemoveMargin {
+    margin-left: -35px;
+  }
+}

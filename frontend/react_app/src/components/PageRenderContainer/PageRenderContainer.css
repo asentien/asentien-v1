@@ -1,0 +1,8 @@
+#pageRenderContainer {
+  margin: auto;
+  max-width: 450px;
+  background-color: var(--primaryWhiteColor);
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

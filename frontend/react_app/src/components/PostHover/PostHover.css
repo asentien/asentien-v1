@@ -1,0 +1,114 @@
+#avatarHover {
+  max-width: 230px;
+  width: 93%;
+  transform: translateX(14px);
+  margin-top: -8px;
+  border-radius: 10px;
+  border: 1px solid var(--primaryGrayBorderColor);
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+  background-color: var(--primaryWhiteColor);
+}
+
+#avatarHoverHeader {
+  display: flex;
+  margin-top: 15px;
+}
+
+#avatarHoverOccupation {
+  color: #000;
+  margin-right: 3px;
+  margin-left: -1px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+#avatarHoverEducation {
+  margin-right: 3px;
+  margin-left: -1px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#avatarHoverFollowButton {
+  width: 45px;
+  margin-left: -10px;
+  margin-bottom: 5px;
+}
+
+#avatarHoverFollowersFollowing {
+  margin-right: 5px;
+  display: flex;
+}
+
+#avatarHoverFollowersFollowingContainer {
+  margin-bottom: 5px;
+  display: flex;
+  margin-left: 1.5px;
+}
+
+#avatarHoverUsername {
+  margin-left: 1px;
+  margin-top: -1px;
+}
+
+#avatarHoverLinkStyle {
+  text-decoration: none;
+  overflow-x: hidden;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: hidden;
+  white-space: nowrap;
+  color: #000;
+  max-width: 145px;
+  margin-top: 0px;
+}
+
+#avatarHoverItemsMenu {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #000;
+  overflow: hidden;
+}
+
+#avatarHoverAAIconsContainer {
+  display: flex;
+  align-items: left;
+  margin-bottom: 5px;
+}
+
+#avatarHoverAsentientIcon {
+  font-size: 0.9em;
+  margin-right: 5px;
+  background-color: var(--primaryPurpleColor);
+  padding-bottom: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: var(--primaryWhiteColor);
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 385px) {
+  #avatarHover {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    opacity: 1;
+    max-width: 230px;
+    width: 93%;
+    background-color: var(--primaryWhiteColor);
+    margin-top: -28px;
+    border-radius: 10px;
+    border: 1px solid var(--primaryGrayBorderColor);
+    position: absolute;
+    z-index: 1;
+    margin-left: -5%;
+    overflow: hidden;
+  }
+}

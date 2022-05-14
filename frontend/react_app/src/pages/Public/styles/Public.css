@@ -1,0 +1,21 @@
+#noUserMarginTop {
+  margin-bottom: -40px;
+  color: transparent;
+}
+
+#noUserMarginBottom {
+  margin-top: -90px;
+  color: transparent;
+}
+
+#postContentVideo {
+  display: block;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 385px) {
+  #noUserMarginBottom {
+    margin-top: -75px;
+  }
+}

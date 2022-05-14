@@ -1,0 +1,92 @@
+#postFormModalHeader {
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  height: 25px;
+}
+
+#postFormModalHeaderTitle {
+  margin-left: 15px;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+#formSubForm {
+  max-width: 335px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #000;
+  text-overflow: break-word;
+  overflow: hidden;
+}
+
+.postFormModalTitle {
+  width: 100%;
+  font-weight: 600;
+  border-width: 0px;
+  overflow: hidden auto;
+  outline: none;
+  background: none;
+  min-height: 80px;
+  resize: none;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+#postFormCharactersWritten {
+  float: right;
+  color: var(--primaryLightGrayColor);
+  margin-right: 17px;
+}
+
+#postFormModalDisplayContent {
+  width: 100%;
+  height: 225px;
+}
+
+.postFormModalBody {
+  width: 100%;
+  border-width: 0px;
+  overflow: hidden auto;
+  outline: none;
+  background: none;
+  min-height: 170px;
+  resize: none;
+}
+
+#postFormModalAddContentIcons {
+  color: #75f200;
+
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+#postFormModalAddContentIcons:hover {
+  color: #61de00;
+}
+
+#postFormModalButton {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  background: var(--primaryPurpleColor);
+  border-width: 0px;
+  height: 30px;
+  color: var(--primaryWhiteColor);
+  cursor: pointer;
+}
+#postFormModalButton:hover {
+  background-color: var(--secondaryPurpleColor);
+}
+
+#postFormModalButton:disabled {
+  background-color: #9e63eb;
+  cursor: default;
+}

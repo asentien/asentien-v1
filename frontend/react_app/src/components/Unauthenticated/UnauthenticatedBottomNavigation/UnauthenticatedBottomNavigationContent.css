@@ -1,0 +1,79 @@
+#bottomNavLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 40px;
+  overflow: hidden;
+  width: 100%;
+}
+
+#bottomNavSignupButton {
+  background-color: var(--primaryWhiteColor);
+  width: 50%;
+  height: 30px;
+  border: 2px solid var(--primaryWhiteColor);
+  border-radius: 30px 30px 30px 30px;
+  color: var(--primaryPurpleColor);
+  text-align: center;
+  font-size: 1.188rem;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-right: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#bottomNavSignupButton:hover {
+  background-color: var(--primaryLightGrayColor);
+  border: 2px solid var(--primaryLightGrayColor);
+}
+
+#bottomNavLoginButton {
+  background-color: var(--primaryPurpleColor);
+  width: 50%;
+  height: 30px;
+  border: 2px solid var(--primaryWhiteColor);
+  border-radius: 30px 30px 30px 30px;
+  color: var(--primaryWhiteColor);
+  text-align: center;
+  font-size: 1.188rem;
+  font-weight: bolder;
+  margin-left: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#bottomNavLoginButton:hover {
+  background-color: var(--secondaryPurpleColor);
+}
+
+@media only screen and (max-width: 385px) {
+  #bottomNavLinks {
+    width: 80%;
+  }
+  #bottomNavLoginButton {
+    width: 80px;
+    font-size: 0.938rem;
+    height: 25px;
+  }
+  #bottomNavSignupButton {
+    width: 80px;
+    font-size: 0.938rem;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  #bottomNavLoginButton {
+    font-size: 0.563rem;
+    width: 56px;
+  }
+  #bottomNavSignupButton {
+    font-size: 0.563rem;
+    width: 56px;
+  }
+}

@@ -1,0 +1,36 @@
+#detailNotFound {
+  margin: auto;
+  background-color: var(--primaryWhiteColor);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 1px 3px 1px rgb(221, 221, 221, 0.3);
+  border: 1px solid var(--primaryGrayBorderColor);
+  max-width: 260px;
+  padding: 35px;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#detailNotFoundTitle {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#noDataPageGoBackButton {
+  color: var(--primaryPurpleColor);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#noDataPageGoBackButton:hover {
+  text-decoration: underline;
+}
+
+#noDataPageGoBackButtonIcon {
+  margin-bottom: -15px;
+  height: 24px;
+  width: 24px;
+}

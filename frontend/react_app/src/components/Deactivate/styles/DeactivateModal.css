@@ -1,0 +1,54 @@
+#deactivatePostModal {
+  background-color: var(--primaryWhiteColor);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  max-width: 335px;
+  overflow: hidden;
+  width: 80%;
+  border-radius: 15px;
+  border: 1px solid rgb(201, 201, 201, 0.6);
+  font-size: 0.75rem;
+  width: 150px;
+  min-height: 210px;
+  max-width: 100%;
+}
+
+#deactivatePostTitle {
+  font-size: 1.125rem;
+  color: #ed5249;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+#deactivatePostText {
+  width: 100%;
+  white-space: normal;
+  overflow-x: hidden;
+}
+
+#deactivateButtonsContainer {
+  display: flex;
+  margin-top: 10px;
+}
+
+#cancelPostDropdownButton {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#cancelPostDropdownButton:hover {
+  text-decoration: underline;
+}
+#deactivatePostDropdownButton {
+  margin-right: 10px;
+  color: #ed5249;
+  cursor: pointer;
+}
+
+#deactivatePostDropdownButton:hover {
+  color: #d74338;
+  text-decoration: underline;
+}

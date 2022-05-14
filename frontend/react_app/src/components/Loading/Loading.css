@@ -1,0 +1,163 @@
+#loadingAnimationUserListAvatar {
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  margin-top: 2px;
+  margin-left: 7px;
+  margin-right: 4px;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 100%;
+  padding: 1px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+#loadingAnimationPostAvatar {
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  margin-top: 7px;
+  margin-left: 14px;
+  margin-right: 4px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  padding: 1px;
+  border: 1px solid;
+}
+
+#loadingAnimationPostFullNameUsername {
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  margin-top: 15.5px;
+  height: 10px;
+  margin-left: 5px;
+  border-radius: 3px;
+  max-width: 155px;
+  width: 50%;
+}
+
+#loadingAnimationUserListFullNameUsername {
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  margin-top: 8px;
+  margin-right: 14px;
+  height: 10px;
+  margin-left: 8px;
+  border-radius: 3px;
+  max-width: 275px;
+  width: 93%;
+}
+
+#loadingAnimationPostOccupationEducation {
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  margin-top: -6px;
+  margin-bottom: 0px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+#loadingAnimationPostBody {
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  height: 20px;
+  margin-left: 5px;
+  border-radius: 5px;
+  max-width: 353px;
+  width: 100%;
+  margin-top: 5.5px;
+}
+
+#profileCoverImageLoading {
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+  border-radius: 0px 0px 0px 0px;
+  height: 130px;
+  width: 100%;
+}
+
+#profileAvatarWrapperLoading {
+  border-radius: 100%;
+  margin-top: -45px;
+  margin-left: 5px;
+  height: 115px;
+  width: 115px;
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+}
+
+#profileAvatarImageLoading {
+  border: 5.5px solid var(--primaryWhiteColor);
+  border-radius: 100%;
+  background-color: var(--primaryWhiteColor);
+  height: 110px;
+  width: 110px;
+  color: transparent;
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loadingAnimation 1.2s ease-in-out infinite;
+}
+
+#profileContainerHeader {
+  margin: auto;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #userListHeaderLinkStyle {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    margin-left: -5%;
+  }
+  #loadingAnimationUserListAvatar {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    margin-left: 0px;
+  }
+  #loadingAnimationPostAvatar {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    margin-left: 4.5px;
+  }
+  #profileAvatarImageLoading {
+    max-height: 75px;
+    max-width: 75px;
+  }
+  #profileAvatarWrapperLoading {
+    max-height: 80px;
+    max-width: 80px;
+    margin-top: -45px;
+  }
+  #profileCoverImageLoading {
+    height: 90px;
+  }
+}
