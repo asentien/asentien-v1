@@ -1,6 +1,36 @@
 # Social Media / Social Network https://www.asentien.com #
 
-Created with React, Django, Javascript, Django Rest Framework, Docker, Nginx, and Gunicorn.
+Created with React, Django, Javascript, Django Rest Framework, JWT, Docker, Nginx, Gunicorn, Redux, and Redux Toolkit.
+
+   - **Features:**
+   
+    - Responsive and mobile first.
+    - Posts with Video, Hashtags, Image, Title, and Text.
+    - Like and Dislike.
+    - (Like - Dislike) display.
+    - List people who have liked a post.
+    - Shares with text and Comments.
+    - List shares, commentes, and the text they may contain.
+    - Follow button, list followers and following.
+    - Promotion system and users with multiple permissions.
+    - Custom User Model.
+    - Profiles with avatar and cover images.
+    - Infinite scrolling.
+    - Videos automatically playing when on screen.
+    - List and search for hashtags.
+    - User search. 
+    - List users by amount of followers.
+    - List posts by most likes.
+    - Display info about author by hovering over their avatar or name.
+    - Local, Docker, and Production setup. 
+    - ReQuery posts by double clicking navigation icons.
+    - Parts accesiable to everyone, others restricted.
+    - JWT authentication.
+    - Custom loader. 
+    - Lazy loading.
+    - Contact form.
+    - List linked notifications.
+    - Notification badge.
 
 Asentien believes in internet's promise. Our mission is to deliver it. 
 https://www.youtube.com/watch?v=TXeemTPjUCQ&list=PL0HCjuq24JPRn1lAaGecOkdZslTdPDdM1.
