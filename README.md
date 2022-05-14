@@ -1,36 +1,41 @@
 # Social Media / Social Network https://www.asentien.com #
 
-Created with React, Django, Javascript, Django Rest Framework, JWT, Docker, Nginx, Gunicorn, Redux, and Redux Toolkit.
+Created with React, Django, Javascript, Django Rest Framework, Simple JWT, Docker, Nginx, Gunicorn, Redux, and Redux Toolkit.
+
+
+![bild](https://user-images.githubusercontent.com/104103689/168448051-53263ca0-ce18-4b5c-bc3e-f0c24caeb952.png)
 
    - **Features:**
    
-    - Responsive and mobile first.
-    - Posts with Video, Hashtags, Image, Title, and Text.
+    - Responsive and mobile-first.
+    - Posts with video, hashtags, image, title, and text.
     - Like and Dislike.
     - (Like - Dislike) display.
     - List people who have liked a post.
     - Shares with text and Comments.
-    - List shares, commentes, and the text they may contain.
-    - Follow button, list followers and following.
+    - List shares, comments, and the text they may contain.
+    - Follow button, list followers, and following.
     - Promotion system and users with multiple permissions.
     - Custom User Model.
     - Profiles with avatar and cover images.
     - Infinite scrolling.
-    - Videos automatically playing when on screen.
+    - Videos automatically play when on screen.
     - List and search for hashtags.
     - User search. 
     - List users by amount of followers.
     - List posts by most likes.
-    - Display info about author by hovering over their avatar or name.
+    - Display info about the author by hovering over their avatar or name.
     - Local, Docker, and Production setup. 
-    - ReQuery posts by double clicking navigation icons.
-    - Parts accesiable to everyone, others restricted.
+    - ReQuery posts by double-clicking navigation icons.
+    - Parts are accessible without an account, others restricted to authenticated.
     - JWT authentication.
     - Custom loader. 
     - Lazy loading.
     - Contact form.
     - List linked notifications.
     - Notification badge.
+
+![bild](https://user-images.githubusercontent.com/104103689/168448137-840d1019-dc4c-4bd6-8978-d0be4701e9a0.png)
 
 Asentien believes in internet's promise. Our mission is to deliver it. 
 https://www.youtube.com/watch?v=TXeemTPjUCQ&list=PL0HCjuq24JPRn1lAaGecOkdZslTdPDdM1.
