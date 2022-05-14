@@ -1,4 +1,4 @@
-Social Media / Social Network https://www.asentien.com.
+# Social Media / Social Network https://www.asentien.com #
 
 Created with React, Django, Javascript, Django Rest Framework, Docker, Nginx, and Gunicorn.
 
@@ -18,19 +18,20 @@ Therefore everything may not be perfect without some slight modifications on you
 In the todos folder in the project root, 
 you'll find text files providing additional information about the project. 
 As well as areas of improvement if you're interested in helping out.
-   - You can reach us:
+   - **You can reach us:**
 
-    - through our contact form over at https://www.asentien.com.
-    - on our Discord server https://discord.gg/t3RXkmYpKe.
-    - through our YT channel https://www.youtube.com/channel/UC_yeAhNZ2qCP40s0mJHemog.
-    - or by email at support@asentien.com.
+
+    - through our contact form over at https://www.asentien.com
+    - on our Discord server https://discord.gg/t3RXkmYpKe
+    - through our YT channel https://www.youtube.com/channel/UC_yeAhNZ2qCP40s0mJHemog
+    - or by email at support@asentien.com
     
     
     
 
 **Running the project locally with Python Environment and NPM:**
    
-    - This is the recommended setup:
+    - This is the recommended setup
     - The project is pre-setup for it
     - You only need Python3, NPM, and pgAdmin installed
     
