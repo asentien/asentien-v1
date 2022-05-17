@@ -1,6 +1,6 @@
 # Social Media / Social Network https://www.asentien.com #
 
-Created with React, Django, Javascript, Django Rest Framework, Simple JWT, Docker, Nginx, Gunicorn, Redux, and Redux Toolkit.
+Created with React, Django, JavaScript, Python, Django Rest Framework, Simple JWT, Docker, Nginx, Gunicorn, Redux, and Redux Toolkit.
 
 
 ![bild](https://user-images.githubusercontent.com/104103689/168448051-53263ca0-ce18-4b5c-bc3e-f0c24caeb952.png)
@@ -37,11 +37,14 @@ Created with React, Django, Javascript, Django Rest Framework, Simple JWT, Docke
 
 ![bild](https://user-images.githubusercontent.com/104103689/168448137-840d1019-dc4c-4bd6-8978-d0be4701e9a0.png)
 
-Asentien believes in internet's promise. Our mission is to deliver it. 
-https://www.youtube.com/watch?v=TXeemTPjUCQ&list=PL0HCjuq24JPRn1lAaGecOkdZslTdPDdM1.
+asentien believes in internet's promise. Our mission is to deliver it. 
+https://www.youtube.com/watch?v=TXeemTPjUCQ&list=PL0HCjuq24JPRn1lAaGecOkdZslTdPDdM1
 
-This is a video explaining what Asentien is.
-https://www.youtube.com/watch?v=0qiK3nx8vu8.
+This is a video explaining what asentien is.
+https://www.youtube.com/watch?v=0qiK3nx8vu8
+
+This is a YouTube short displaying asentien in mobile form.
+https://www.youtube.com/shorts/FyJeyZlAO-c
 
 
 
