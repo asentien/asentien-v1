@@ -3,7 +3,7 @@
 Created with React, Django, JavaScript, Python, Django Rest Framework, Simple JWT, Docker, Nginx, Gunicorn, Redux, and Redux Toolkit.
 
 
-![bild](https://user-images.githubusercontent.com/104103689/168448051-53263ca0-ce18-4b5c-bc3e-f0c24caeb952.png)
+<img src="https://user-images.githubusercontent.com/104103689/169641418-036a1e39-ab2a-4abe-8523-739fee2a6708.png" width="300px" height="580px"> <img src="https://user-images.githubusercontent.com/104103689/169641203-ab69a26f-7751-4797-9bd2-9a4456289982.png" width="300px" height="580px">
 
    - **Features:**
    
@@ -12,7 +12,7 @@ Created with React, Django, JavaScript, Python, Django Rest Framework, Simple JW
     - Like and Dislike.
     - (Like - Dislike) display.
     - List people who have liked a post.
-    - Shares with text and Comments.
+    - Shares with optional text and comments.
     - List shares, comments, and the text they may contain.
     - Follow button, list followers, and following.
     - Promotion system and users with multiple permissions.
@@ -34,17 +34,16 @@ Created with React, Django, JavaScript, Python, Django Rest Framework, Simple JW
     - Contact form.
     - List linked notifications.
     - Notification badge.
-
-![bild](https://user-images.githubusercontent.com/104103689/168448137-840d1019-dc4c-4bd6-8978-d0be4701e9a0.png)
+    - Bugs. 
 
 asentien believes in internet's promise. Our mission is to deliver it. 
-https://www.youtube.com/watch?v=TXeemTPjUCQ&list=PL0HCjuq24JPRn1lAaGecOkdZslTdPDdM1
+https://www.youtube.com/watch?v=TXeemTPjUCQ&list=PL0HCjuq24JPRn1lAaGecOkdZslTdPDdM1.
 
 This is a video explaining what asentien is.
-https://www.youtube.com/watch?v=0qiK3nx8vu8
+https://www.youtube.com/watch?v=0qiK3nx8vu8.
 
 This is a YouTube short displaying asentien in mobile form.
-https://www.youtube.com/shorts/FyJeyZlAO-c
+https://www.youtube.com/shorts/FyJeyZlAO-c.
 
 
 
