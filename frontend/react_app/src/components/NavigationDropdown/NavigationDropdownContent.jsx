@@ -178,7 +178,7 @@ const NavigationDropdownContent = ({
           )}
 
           <div id='navigationCopyright' type='button'>
-            &copy; Willy Nilsson 2021. All rights reserved.
+            &copy; asentien 2022. All rights reserved.
           </div>
         </div>
       </>
