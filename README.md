@@ -146,9 +146,9 @@ As well as areas of improvement if you're interested in helping out.
 
    - *****Cloud requirements:*****
    
-    - virtual machine
-    - database
-    - storage bucket
+    - Virtual machine
+    - Database
+    - Storage bucket
     
    - *****Code setup:*****
    
