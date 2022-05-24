@@ -153,7 +153,7 @@ As well as areas of improvement if you're interested in helping out.
    - *****Code setup:*****
    
     - Once the code is reachable from your VM
-    - Go to init-letsencrypt.sh and set staging to 0
+    - Add the correct variables in all .env files
     - In the project root
     - docker-compose build
     - sudo chmod +x init-letsencrypt.sh
